@@ -1,0 +1,44 @@
+.wrapper{
+    height:150px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    border: 2px solid brown;
+
+}
+.wrapper h2{
+    color: brown;
+    font-weight: 500;
+}
+
+.btn{
+    color: white;
+    background-color: brown;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(190, 27, 27);
+  }
+
+.wrapper span{
+    display: inline-block;
+}
+
+.colorgrid{
+    height: 20px;
+    width: 20px;
+}
+.colorval{
+    color: brown;
+}
